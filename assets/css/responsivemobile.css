@@ -1,0 +1,67 @@
+@media (max-width:739px){
+    .mobile-full{
+        width: 100%;
+    }
+
+    /* header  */
+    #header{
+        overflow: hidden;
+    }
+    
+    #header .nav {
+        display: block;
+    }
+    #header .nav li{
+        display: block;
+    }
+    #header .nav li:first-child{
+        display: inline-block;
+    }
+    #header .subnav {
+      position: initial;
+      min-width: 160px;
+      
+
+    }
+    #header .menu{
+        display: block;
+        position: fixed;
+        right: 0;
+        top: 0;
+        padding: 12px 24px;
+    }
+    #header .menu:hover{
+        background-color: #ccc;
+        color: black;
+    }
+    /* slider  */
+    .slider-text{
+        display: none;
+    }
+    /* header mobile  */
+    #header .search{
+        display: none;
+    }
+    /* conten theban  */
+
+    /* content tour  */
+
+    .mobile-tour{
+        margin-bottom: 16px;
+    }
+    .tour-country{
+        width: 100%;
+    }
+
+    /* contact  */
+    .contact-mobile{
+        width: 100%;
+    }
+    #contact .contact-fix{
+        padding-right: 0;
+    }
+    .mobile-mg-bottom{
+        margin-bottom: 16px;
+    }
+    
+}
